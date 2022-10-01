@@ -178,11 +178,11 @@ input#file {
 }
 
 .aboutme a:nth-child(1) {
-    background-image: url('/git.38e0f9aa.png');
+    background-image: url('./git.38e0f9aa.png');
 }
 
 .aboutme a:nth-child(2) {
-    background-image: url('/sen.6c9c6e22.png');
+    background-image: url('./sen.6c9c6e22.png');
 }
 
 @media (max-width: 800px) {
@@ -196,5 +196,6 @@ input#file {
         width: 430px;
     }
 }
+
 
 /*# sourceMappingURL=/them.ca4bc439.css.map */
