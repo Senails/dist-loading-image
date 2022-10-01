@@ -177,6 +177,7 @@ function upload(selector) {
               fileList = this.files;
               files = Array.from(fileList);
               renderPreview(files);
+              if (load) load.remove();
               load = document.createElement('button');
               load.classList.add('btn');
               load.innerHTML = 'Загрузить';
@@ -184,7 +185,7 @@ function upload(selector) {
               load.addEventListener('click', golaod);
               this.value = '';
 
-            case 11:
+            case 12:
             case "end":
               return _context.stop();
           }
@@ -9077,7 +9078,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58239" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58484" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
